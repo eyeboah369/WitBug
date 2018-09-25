@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: #fefefe;">
+  
+    <div class="icon-bar">  
+        <a class="active" href="#" style="height: 30px; width: 50px; margin-right: 5%;"><i class="fa fa-search"></i></a>
+        
+        <div><p style="font-size: 20px; font-family: Rockwell; color: #41ef58; padding-left: 140px;">WitBug</p>
+
+        <div id="main">
+            <span style="font-size: 20px; cursor:pointer; margin-top: 0;" onclick="openNav()">
+                <img src="images/Witbug.png" id="witbugIMG"/>
+            </span>
+
+        </div>
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div id="navOption">
+                 <a href="#">Profile</a>
+                 <a href="#">Progress</a>
+                 <a href="#">Contact</a>
+                 <a href="#">About</a>
+            </div>
+        </div>
+
+
+        </div>
+
+      
+
+        <div style="width: 100%; background-color: white; height: 260px; border-radius: 10px; margin-bottom: 20%; margin-top: 23%; z-index: 1;">
+          
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/Witbug(yellow).png" style="width: 100%; height: 170px; "/>
+                    <div class="text"><a href="start.html">Starter Pack</a></div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/Witbug(purple).png" style="width: 100%; height: 170px;"/>
+                    <div class="text">Youre Getting Better</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/Witbug(red).png" style="width: 100%; height: 170px;"/>
+                    <div class="text">Getting Serious</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            
+        </div>
+
+
+
+
+        <div style="width: 100%; background-color: white; height: 260px; border-radius: 10px; margin-bottom: 20%; margin-top: 23%;">
+
+            <div class="slideshow-container">
+                <div class="mySlidesA fade">
+
+
+                    <img src="images/Witbug(blackBlue).png"     style="width: 100%; height: 170px;" />
+                    <div class="text1">Starter Pack</div>
+                </div>
+
+                <div class="mySlidesA fade">
+
+
+                    <img src="images/Witbug(blackRed).png"     style="width: 100%; height: 170px;" />
+                    <div class="text1">Youre Getting Better</div>
+                </div>
+
+                <div class="mySlidesA fade">
+
+
+                    <img src="images/Witbug(blackYellow).png"    style="width: 100%; height: 170px;" />
+                    <div class="text1">Getting Serious</div>
+                </div>
+
+                <a class="prev" onclick="plusSlidesa(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlidesa(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dotz" onclick="currentSlide(4)"></span>
+                <span class="dotz" onclick="currentSlide(5)"></span>
+                <span class="dotz" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+
+
+
+    <div style="width: 100%; background-color: white; height: 260px; border-radius: 10px; margin-bottom: 20%; margin-top: 23%;">
+
+        <div class="slideshow-container">
+            <div class="mySlidesB fade">
+
+
+                <img src="images/Witbug(blackBug).png"  style="width: 100%; height: 170px;" />
+                <div class="text2">Starter Pack</div>
+            </div>
+
+            <div class="mySlidesB fade">
+
+                <img src="images/Witbug(blueBug).png"   style="width: 100%; height: 170px;" />
+                <div class="text2">Youre Getting Better</div>
+            </div>
+
+            <div class="mySlidesB fade">
+
+
+                <img src="images/Witbug(purpleBug).png"  style="width: 100%; height: 170px;" />
+                <div class="text2">Getting Serious</div>
+            </div>
+
+            <a class="prev" onclick="plusSlidesaa(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlidesaa(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dotzz" onclick="currentSlide(4)"></span>
+            <span class="dotzz" onclick="currentSlide(5)"></span>
+            <span class="dotzz" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+  
+    
+    
+    
+    
+    <script>
+    
+            function openNav() {
+             document.getElementById("mySidenav").style.width = "250px";
+             document.getElementById("main").style.marginLeft = "250px";
+             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "00";
+              document.getElementById("main").style.marginLeft= "0";
+              document.body.style.backgroundColor = "white";
+            }
+
+
+        </script>
+
+   <script>
+        /*SLIDESHOW ACTIVITIES*/
+
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+        }
+
+        </script>
+
+   
+    
+    
+    
+    
+    
+    <script>
+
+        var slideIndexa = 1;
+        showSlidesa(slideIndexa);
+
+        function plusSlidesa(n) {
+            showSlidesa(slideIndexa += n);
+        }
+
+        function currentSlide(n) {
+            showSlidesa(slideIndexa = n);
+        }
+
+        function showSlidesa(n) {
+            var i;
+            var slidesa = document.getElementsByClassName("mySlidesA");
+            var dots = document.getElementsByClassName("dotz");
+            if (n > slidesa.length) { slideIndexa = 1 }
+            if (n < 1) { slideIndexa = slidesa.length }
+            for (i = 0; i < slidesa.length; i++) {
+                slidesa[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slidesa[slideIndexa - 1].style.display = "block";
+            dots[slideIndexa - 1].className += " active";
+        }
+
+        </script>
+
+
+    <script>
+
+          var slideIndexaa = 1;
+          showSlidesaa(slideIndexaa);
+
+          function plusSlidesaa(n) {
+              showSlidesaa(slideIndexaa += n);
+          }
+
+          function currentSlide(n) {
+              showSlidesaa(slideIndexaa = n);
+          }
+
+          function showSlidesaa(n) {
+              var i;
+              var slidesaa = document.getElementsByClassName("mySlidesB");
+              var dots = document.getElementsByClassName("dotzz");
+              if (n > slidesaa.length) { slideIndexaa = 1 }
+              if (n < 1) { slideIndexaa = slidesaa.length }
+              for (i = 0; i < slidesaa.length; i++) {
+                  slidesaa[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slidesaa[slideIndexaa - 1].style.display = "block";
+              dots[slideIndexaa - 1].className += " active";
+          }
+
+    </script>
+    
+    
+            
+</body>
+</html>

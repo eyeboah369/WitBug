@@ -1,0 +1,74 @@
+<div id="pageA">
+    <h1>What is the spanish word for "mongoose"?</h1>
+
+    <div id="hide" onclick="off()">
+        <div id="wrong"><img style="height: 255px; width: 270px;"src="http://www.reactiongifs.com/r/wrong-gif.gif" id="witbugIMG" /></div>
+    </div>
+    <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center; 
+display: inline-block; margin-bottom: 20px; margin-left: 10%;" onclick="goNext()">Mongosta</button>
+
+    <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center; 
+display: inline-block; margin-left: 40px;" onclick="on()">Huevos</button><br />
+
+    <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; 
+align-content: center; margin-left: 10%;" onclick="on()">Chipotle</button>
+
+    <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+        What?</button><br />
+    <button id="goNext"style="align-content: center; margin-top: 90px; display: none; 
+color: black; background-color: lightgreen; border-radius: 10px; margin-left: 30%;" onclick="nextPage">Continue ---></button>
+        </div>
+    
+
+
+
+    <script>
+         function on() {
+             document.getElementById("hide").style.display = "block"
+         }
+         function off() {
+             document.getElementById("hide").style.display = "none"
+         }
+         function goNext() {
+             document.getElementById("goNext").style.display = "block"
+         }
+
+         function nextPage() {
+             document.getElementById("pageA").style.display = ""
+         }
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: white">
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <h1>What is the spanish word for "mongoose"?</h1>
+
+            <div id="hide" onclick="off()">
+                <div id="wrong"><img style="height: 255px; width: 270px;" src="http://www.reactiongifs.com/r/wrong-gif.gif" id="witbugIMG" /></div>
+            </div>
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-bottom: 20px; margin-left: 10%;" onclick="goNext()">
+                Mongosta
+            </button>
+
+            <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                Huevos
+            </button><br />
+
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px;
+align-content: center; margin-left: 10%;" onclick="on()">
+                Chipotle
+            </button>
+
+            <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                What?
+            </button><br />
+
+            <a class="next" id="goNext" onclick="plusSlides(1); goNext(); nextPage()" style="display: none; margin-top: 200px;">Continue &#10095;</a>
+          
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <h1>When is the best time to wear a stripped sweater?</h1>
+
+            <div id="hide" onclick="off()">
+                <div id="wrong"><img style="height: 255px; width: 270px;" src="http://www.reactiongifs.com/r/wrong-gif.gif" id="witbugIMG" /></div>
+            </div>
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-bottom: 20px; margin-left: 10%;" onclick="goNext()">
+                Winter
+            </button>
+
+            <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                All the time
+            </button><br />
+
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px;
+align-content: center; margin-left: 10%;" onclick="on()">
+                huh?
+            </button>
+
+            <button id="choice2" style="height: 48px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                when hunting wabbits
+            </button><br />
+
+            <a class="next" id="goNext" onclick="plusSlides(1); goNext(); nextPage()" style="display: none; margin-top: 200px;">Continue &#10095;</a>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <h1>What is the atomic weight of oxygen?</h1>
+
+            <div id="hide" onclick="off()">
+                <div id="wrong"><img style="height: 255px; width: 270px;" src="http://www.reactiongifs.com/r/wrong-gif.gif" id="witbugIMG" /></div>
+            </div>
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-bottom: 20px; margin-left: 10%;" onclick="goNext()">
+                what what?
+            </button>
+
+            <button id="choice2" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                3 militons
+            </button><br />
+
+            <button id="choice1" style="height: 40px; width: 90px; background-color:#41ef58; border-radius: 12px;
+align-content: center; margin-left: 10%;" onclick="on()">
+                34 au
+            </button>
+
+            <button id="choice2" style="height: 48px; width: 90px; background-color:#41ef58; border-radius: 12px; align-content: center;
+display: inline-block; margin-left: 40px;" onclick="on()">
+                15.999 u
+            </button><br />
+
+            <a class="next" id="goNext" onclick="plusSlides(1); goNext(); nextPage()" style="display: none; margin-top: 200px;">Continue &#10095;</a>
+
+        </div>
+        </div>
+
+
+
+
+
+        <script>
+            function on() {
+                document.getElementById("hide").style.display = "block"
+            }
+            function off() {
+                document.getElementById("hide").style.display = "none"
+            }
+            function goNext() {
+                document.getElementById("goNext").style.display = "block"
+            }
+
+            function nextPage() {
+                document.getElementsByClassName("next").style.visibility = "hidden"
+            }
+        </script>
+
+    <script>
+            function on() {
+                document.getElementById("hide").style.display = "block"
+            }
+            function off() {
+                document.getElementById("hide").style.display = "none"
+            }
+            function goNext() {
+                document.getElementById("goNext").style.display = "block"
+            }
+
+            function nextPage() {
+                document.getElementsByClassName("next").style.visibility = "hidden"
+            }
+    </script>
+
+
+
+
+
+
+
+
+
+
+        <script>
+            /*SLIDESHOW ACTIVITIES*/
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
